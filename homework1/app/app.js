@@ -17,6 +17,7 @@ function initListeners() {
         return;
       }
 
+      // initial weather header
       let html = `
         <div>
             <h2>Weather for ${data.location.name}, ${data.location.region}, ${data.location.country}</h2>
@@ -26,6 +27,7 @@ function initListeners() {
         </div>
       `;
 
+      // current weather card
       html += `
       <div class="weatherWrapper">
         <div class="weatherCard">
@@ -43,7 +45,7 @@ function initListeners() {
         </div>
 `;
 
-      // Forecast day cards (no hourly breakdown)
+      // forecast cards
       data.forecast.forecastday.forEach((day) => {
         html += `
         <div class="weatherCard">

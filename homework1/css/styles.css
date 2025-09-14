@@ -8,7 +8,7 @@
 html,
 body {
   height: 100%;
-  background: #3ca2ca;
+  background: #5fbfe5;
 }
 
 h1,
@@ -93,7 +93,7 @@ nav a:hover {
 }
 
 #getCity {
-  background-color: rgb(85, 202, 244);
+  background-color: rgb(48, 162, 203);
   color: white;
   border: none;
   padding: 10px 20px;
