@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CitiWeather</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <nav>
+
+        <div class="navBar">
+            <a href="">Home</a>
+            <a href="">Learn More</a>
+            <a href="">Report an Error</a>
+            <a href="">Log in</a>    
+        </div>
+        
+    </nav>
+    <div class="content">
+        <div class="heading">
+            <h1 class="title">CitiWeather</h1>
+        <p>The fastest weather app- built for your city.</p>
+        </div>
+    </div>    
+        
+    <div class="searchCity">
+        <div class="search">
+            <p>What's the weather like in</p>
+            <input type="text" id="city" placeholder="your city">
+            <p>for the next</p>
+            <select id="numDays">
+                <option value="1">day</option>
+                <option value="2">2 days</option>
+                <option value="3">3 days</option>
+            </select>
+            <p>?</p>
+        </div>
+
+        <div class="flex">
+            <button id="getCity">Get the weather</button>
+        </div>
+        
+
+    </div>
+        
+        <div class="weatherData"></div>
+    
+    
+    
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script type="module" src="model/model.js"></script>
+    <script type="module" src="app/app.js"></script>
+</body>
+</html>
