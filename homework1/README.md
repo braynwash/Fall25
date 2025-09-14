@@ -6,6 +6,8 @@ This is my first project for N423: Database Development for Mobile Apps.
 
 This project is a basic weather forecast app that allows users to input their desired city and set range of days (no more than three) to quickly view the current and upcoming weather in that area using the weatherapi.com API. This is to get acquainted with the basics of using and gathering JSON data from an API.
 
+While the rubric explicitly asked for this to be done via zip code, the "Instructions" tab mentioned it could be done through either city OR zip code, and I was 90% done with the application by using the users' inputted city before I noticed the rubric. I hope this method is acceptable- if not, PLEASE let me know and I would be happy to resubmit the project with the switched method.
+
 # Tasks
 
 In this project, I have...
