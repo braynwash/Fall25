@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add a Student</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
+    <div class="header">
+      <h1>StudentDB</h1>
+      <p>Your local student storage!</p>
+    </div>
+    
+    <div class="wrapper">
+      <div class="inputs">
+        <p style="text-align: center;">Input a desired students' information below to add them to your local storage.</p>
+        <input type="text" id="firstName" placeholder="First Name"/>
+        <input type="text" id="lastName" placeholder="Last Name"/>
+        <input type="text" name="age" id="age" placeholder="Age"/>
+        <input type="text" name="phoneNum" id="phoneNum" placeholder="Phone Number"/>
+        <input type="text" name="email" id="email" placeholder="IU Email"/>
+        <input type="text" name="address" id="address" placeholder="Address"/>
+        <input type="text" id="classes" placeholder="Add classes separated by commas..."/>
+        <input type="submit" class="submitButton" id="submit" value="Add a Student"/>
+      
+      <div class="buttonHolder">
+          <button id="showLocal" class="showLocal">Show All Registered Students</button>
+      </div>
+
+    </div>
+  
+      <div class="registered">
+        <div id="app" class="app"></div> <!-- added content -->
+      </div>
+      
+  
+    </div>
+
+ <script src="lib/jquery-3.7.1.min.js">
+</script><script src="app/app.js"></script>
+
+</body>
+</html>

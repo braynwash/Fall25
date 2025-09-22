@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: rgb(226, 164, 164);
+  font-family: monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.header {
+  margin-top: 75px;
+  color: white;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 48px;
+}
+
+.header p {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.wrapper {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.inputs input {
+  padding: 5px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  outline: none;
+  border: none;
+}
+
+.registered {
+  width: 50%;
+}
+
+#submit,
+button {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(205, 111, 111);
+  padding: 5px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+  border: none;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.buttonHolder {
+  text-align: center;
+}
+
+#submit:hover {
+  cursor: pointer;
+  background-color: rgb(150, 75, 75);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(150, 75, 75);
+}
+
+.studentCard {
+  background-color: white;
+  width: 400px;
+  padding: 15px;
+  border-radius: 15px;
+  margin-left: 5%;
+}
+
+/*# sourceMappingURL=styles.css.map */
